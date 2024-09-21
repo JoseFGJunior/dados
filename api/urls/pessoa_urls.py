@@ -7,5 +7,6 @@ urlpatterns = [
     path('update/<str:pk>/',views.PessoaUpdateView.as_view(), name='pessoa-update'),
     path('delete/<str:pk>/',views.PessoaDeleteView.as_view(), name='pessoa-delete'),
     path('<str:pk>/',views.PessoaDetailView.as_view(), name='pessoa-detail'),
+   
     
 ]

@@ -42,7 +42,7 @@ class TenantCreateView(CreateAPIView):
     queryset = Tenant.objects.all()
     serializer_class = TenantSerializer
 
-class TenantUpodateView(UpdateAPIView):
+class TenantUpdateView(UpdateAPIView):
     queryset = Tenant.objects.all()
     serializer_class = TenantSerializer
 
